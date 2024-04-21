@@ -23,7 +23,7 @@ struct Book {
 // Function to read book details from user input 
 void readBook( struct Book *book ) {
 	printf("Enter Student's name : ");
-    scanf("%s", &book->studentname);
+    scanf("%s", book->studentname);
     printf("Enter Symbol number : ");
     scanf("%d", &book->symbolno);
     printf("Enter Book ID: ");
